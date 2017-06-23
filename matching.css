@@ -1,0 +1,51 @@
+/*.card{
+  width: 20%;
+  height: 130px;
+  background: salmon;
+  border-radius: 15%;
+  float: left;
+  margin: 1.6%
+}
+
+.container{
+  width: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 100;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.card {
+  float: left;
+  margin: 10px;
+  height: 200px;
+  width: 150px;
+  background: lightblue;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 3px solid salmon;
+}
+
+.card p {
+  font-size: 48px;
+  color: salmon;
+}
